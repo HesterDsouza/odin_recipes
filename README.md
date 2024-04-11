@@ -1,3 +1,3 @@
 # odin_recipes
-Recipe page
+Recipe page.
 I will use html code for a recipe website. 
