@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(103, 103, 103);
+}
+
+.header{
+    color: rgb(220, 158, 3);
+}
+
+.content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    color: rgb(128, 153, 2);
+}
+
+.recipes{
+    display: flex;
+    margin-right: 10px;
+    flex-direction: column;
+    gap: 20px;
+    width: max-content;
+}
+
+.recipe{
+    color: #000;
+    text-decoration: none;
+    background-color: #0dfb80;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.recipe:hover{
+    background-color: rgba(27, 218, 119, 0.599);
+}
